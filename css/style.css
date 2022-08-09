@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFEDD5;
+    font-family: Roboto Serif;
+    overflow-x: hidden;
+ }
+ *::selection {
+    background-color: #f0bb7f;
+ }
+ header {
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+ }
+ header .container {
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ header h1 {
+    text-transform: uppercase;
+    font-size: 28pt;
+ }
+ header .title-coffee {
+    color: #995000;
+ }
+ header p {
+    color: #000000cb;
+ }
+ 
+ section {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+ }
+ section .container-description {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .sub-title {
+    width: 100%;
+    background-color: #FED7AA;
+    text-align: center;
+    font-size: 18pt;
+    text-transform: uppercase;
+ }
+ section ul li {
+    list-style: none;
+ }
+ section .options {
+    padding-top: 18px;
+ }
+ section li {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+ }
+ section .details {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    width: 320px;
+ }
+ section .options-title {
+    text-transform: uppercase;
+    font-size: 16pt;
+ }
+ section .description {
+    color: #000000a2;
+ }
+ section .price {
+    text-transform: uppercase;
+    font-size: 16pt;
+ }
+ 
+ @media (max-width:600px) {
+    header h1 {
+       text-transform: uppercase;
+       font-size: 20pt;
+    }
+    .sub-title {
+       width: 300px;
+       background-color: #FED7AA;
+       text-align: center;
+       font-size: 18pt;
+       text-transform: uppercase;
+    }
+    section .details {
+       display: flex;
+       flex-direction: column;
+       line-height: 30px;
+       width: 220px;
+    }
+ }
